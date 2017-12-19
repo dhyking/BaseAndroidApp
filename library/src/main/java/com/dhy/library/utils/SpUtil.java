@@ -1,4 +1,4 @@
-package com.dhy.library.widget;
+package com.dhy.library.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -11,13 +11,17 @@ import java.util.Set;
  */
 
 public class SpUtil {
-    private String NAME = "";
+    private String NAME = "SharePreference_Local";
     private Context context;
     private SharedPreferences sharePreference;
     private SharedPreferences.Editor editor;
 
     public SpUtil() {
+        if (context == null) {
+            throw new NullPointerException(context + "is null,you should init context first");
+        }
         sharePreference = context.getSharedPreferences(NAME,Context.MODE_PRIVATE);
+
     }
 
     public static SpUtil getInstance() {

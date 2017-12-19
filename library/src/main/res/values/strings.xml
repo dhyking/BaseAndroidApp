@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Library</string>
     <string name="text_loading_ing">加载中...</string>
+    <string name="dialog_text_close">关闭</string>
+    <string name="dialog_text_cancel">取消</string>
+    <string name="dialog_text_sure">确定</string>
+    <string name="crash_err_description">系统异常,请重新登录</string>
 </resources>
