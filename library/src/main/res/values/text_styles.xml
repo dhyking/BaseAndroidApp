@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="btn_x3_white">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_size_3</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="btn_x3_black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_size_3</item>
+        <item name="android:background">@drawable/selector_btn_white_40</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="btn_x3_blue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_size_3</item>
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+    </style>
+
+    <style name="btn_x3_red">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_size_3</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
+    </style>
+
+
+</resources>
