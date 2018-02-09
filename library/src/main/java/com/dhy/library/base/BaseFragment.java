@@ -68,4 +68,12 @@ public class BaseFragment extends Fragment {
     public void setNavigationBarColor(int resId){
         getActivity().getWindow().setNavigationBarColor(resId);
     }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+    }
+
+
+
 }

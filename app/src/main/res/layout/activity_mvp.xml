@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mvp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dhy.baseandroidapp.MvpActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+    <ProgressBar
+        android:id="@+id/proBar"
+        android:layout_width="@dimen/lay_content_padding40"
+        android:layout_height="@dimen/lay_content_padding40"
+        style="@style/Base.Widget.AppCompat.ProgressBar"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

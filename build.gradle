@@ -3,9 +3,12 @@
 buildscript {
     repositories {
         jcenter()
+//        mavenLocal()
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.3'
+        classpath "com.tencent.tinker:tinker-patch-gradle-plugin:1.9.2"
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -15,9 +18,10 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+//        mavenLocal()
     }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
+//task clean(type: Delete) {
+//    delete rootProject.buildDir
+//}
